@@ -2,7 +2,7 @@
 
 </template>
 
-<script setup lang="less">
+<script setup lang="ts">
 
 </script>
 
