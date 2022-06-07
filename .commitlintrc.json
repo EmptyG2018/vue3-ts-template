@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "@commitlint/config-conventional"
-  ],
+  "extends": ["@commitlint/config-conventional"],
   "prompt": {
     "settings": {},
     "messages": {
@@ -74,13 +72,31 @@
         }
       },
       "scope": {
-        "description": "请描述代码修改范围："
+        "description": "commit 修改范围, 比如: component, utils..."
       },
       "subject": {
-        "description": "请描述代码提交说明："
+        "description": "commit 描述说明"
       },
       "body": {
-        "description": "请描述具体修改内容："
+        "description": "commit 具体修改内容"
+      },
+      "isBreaking": {
+        "description": "有什么重大变化吗？"
+      },
+      "breakingBody": {
+        "description": "针对重大变化，需要提交详细的描述"
+      },
+      "breaking": {
+        "description": "Describe the breaking changes"
+      },
+      "isIssueAffected": {
+        "description": "Does this change affect any open issues?"
+      },
+      "issuesBody": {
+        "description": "If issues are closed, the commit requires a body. Please enter a longer description of the commit itself"
+      },
+      "issues": {
+        "description": "Add issue references (e.g. \"fix #123\", \"re #123\".)"
       }
     }
   }
