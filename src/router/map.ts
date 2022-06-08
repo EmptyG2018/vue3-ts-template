@@ -7,7 +7,7 @@ export const constRoutes: RouteRecordRaw[] = [
     meta: {
       title: '测试',
     },
-    component: () => import('@/views/TestPage.vue'),
+    component: () => import('@/views/Test.vue'),
   },
 ];
 
